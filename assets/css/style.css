@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header .navbar-expand-lg {
+    justify-content: space-between;
+    padding: 0;
+}
+header .navbar-collapse {
+    flex-grow: 0;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+li.nav-item a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+li.nav-item a:hover {
+    color:red;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+}
+.navbar-toggler {
+    background-color: red;
+}
+
+.banner{
+    background-image: url(../images/banner_img.png);
+    /* height: 500px; */
+    padding: 140px 0px;
+
+}
+.col-5 p.sub_title {
+    position: relative;
+    color: #FFFFFF;
+    top: -14px;
+    left: 127px;
+    right: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-5 p.sub_title::before{
+    position: absolute;
+    height: 40px;
+    width: 4px;
+    left: -38px;
+    top: -4px;
+    content: '';
+    background: linear-gradient(
+180deg, #FFE11A 0%, #FE0000 112.5%);
+    transform: rotate(
+0.35deg);
+    display: inline-block;
+    
+
+}
+.col-5 h1 {
+    color: white;
+    font-size: 40px;
+    padding: 10px 86px;
+}
+.col-5 p{
+        color: white;
+        width: 369px;
+        position: relative;
+        top: 30px;
+        left: 86px;
+        font-size: 15px;
+        font-weight: 400;
+}
+.banner_btn {
+    position: relative;
+    top: 55px;
+    padding: 8px 18px;
+    left: 83px;
+}
+.banner_btn::after{
+    /* background-image: url(../images/arrow_white.png); */
+    content: url(../images/arrow_white.png);
+    padding-left: 10px;
+
+}
+.tab{
+    border-bottom: 1px solid gray;
+    padding-bottom: 18px;
+
+}
+.list{
+    margin-top: 16px;  
+}
+.col a.active{
+    color: #FE0000;
+    border-bottom: 2px solid #FE0000;
+    padding-bottom: 19px;
+}
+.col a{
+    color:gray;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.col a:hover{
+    color: #FE0000;
+}
+
+
+ 
