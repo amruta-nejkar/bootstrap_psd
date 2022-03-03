@@ -42,6 +42,9 @@ li.nav-item a:hover {
     background-color: red;
 }
 
+.header_btn{
+    padding: 6px 20px;
+}
 .banner{
     background-image: url(../images/banner_img.png);
     /* height: 500px; */
@@ -98,11 +101,20 @@ li.nav-item a:hover {
     padding-left: 10px;
 
 }
+.banner_btn:hover:after{
+    content: url(../images/arroe_red.png);
+    padding-left: 10px;
+}
+a.banner_btn:hover{
+    color: #F80000;
+    background-color: #FFFFFF;
+}
 .tab{
     border-bottom: 1px solid gray;
-    padding-bottom: 18px;
+    padding-bottom: 4px;
 
 }
+
 .list{
     margin-top: 16px;  
 }
@@ -120,6 +132,213 @@ li.nav-item a:hover {
 .col a:hover{
     color: #FE0000;
 }
+.technology {
+    padding-top: 10px;
+}
+ h2.main_heading{
+    margin-top: 40px;
+    color: #1F1F1F;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+    position: relative;     
+}
+ h2.main_heading::after{
+    position: absolute;
+    height: 55px;
+    width: 3px;
+    left: 570px;
+    top: 21px;
+    content: "";
+    background: linear-gradient(rgb(255, 225, 26) 0%, rgb(254, 0, 0) 112.5%);
+    transform: rotate(
+-90deg);
+    display: inline-block;
+  
+}
+
+.technology p{
+    color:  #646464;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 12px;
+   margin-top: 30px;
+   font-style: normal;
+   margin-bottom: 23px;
+   font-weight: 400;
+}
+
+.technology p span{
+    display: block;
+}
+
+.btn_tech {
+    margin-left: 500px;
+
+}
+a.btn_one{
+  
+   border:2px solid #F80000;
+   color:#F80000;
+   text-decoration: none;
+   margin-left: -7px;
+   font-weight: 500;
+   font-size: 13px;
+   padding: 8px 25px;
+
+}
+.btn_one::after{
+    content: url(../images/arroe_red.png);
+    padding-left: 10px;
+}
+.btn_one:hover:after{
+    content: url(../images/arrow_white.png);
+    padding-left: 10px;
+}
 
 
- 
+a.btn_one:hover{
+  
+    color: #FFFFFF;
+    background-color: #F80000;
+    font-weight: 500px;
+}
+.card_one{
+    margin-top: 50px;
+}
+.card{
+    box-shadow: 0 0 8px #c7c7c7;
+}
+.card:hover{
+    background-color:#fcf7f7;
+}
+.tab p {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 12px 10px 12px 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    width: 156px;
+    margin: 0;
+    color: #838383;
+}
+.tab ul {
+    border: none !important;
+    width: 85%;
+    justify-content: space-between;
+    padding: 0px 0% 0 4%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.tab .row{
+    align-items: center;
+}
+.tab ul li a{
+    color: #838383;
+    text-decoration: none;
+}
+span {
+    display: block;
+}
+h2.heading::after {
+    position: absolute;
+    height: 55px;
+    width: 3px;
+    left: 570px;
+    top: 58px;
+    content: "";
+    background: linear-gradient(rgb(255, 225, 26) 0%, rgb(254, 0, 0) 112.5%);
+    transform: rotate( -90deg);
+    display: inline-block;
+}
+.card_section{
+    margin-top: 70px;
+}
+.title{
+    color:#1F1F1F;
+    font-size: 20px;
+}
+.text{
+    color: #838383;
+     text-transform: capitalize;
+     font-size: 15px;
+     width: 196px;
+    
+}
+.para{
+    padding-top: 22px;
+}
+.card-body a{
+    color: #F80000;
+}
+.card-link::after{
+    content: url(../images/arroe_red.png);
+    padding-left: 10px;
+}
+.main_card{
+    margin-top: 30px;
+}
+.explore{
+    margin-top: 20px;
+}
+.text_para{
+    font-size: 15px;
+    width:270px
+}
+.information{
+    font-size: 15px;
+    color: #838383;
+    width: 200px;
+}
+.information_two{
+    font-size: 15px;
+    color: #838383;
+}
+.list{
+    list-style: none;
+}
+.card ul .list::before{
+    content: url(../images/Vector.svg);
+    display: inline-block;
+    transform: scale(.7);
+    padding-right: 15px;
+    padding-left: 10px;
+}
+.section_banner{
+    background-color:#1F1F1F;
+    height: 280px;
+    margin-top: 70px;
+}
+.section_banner p.sub_heading{
+    color: #fcf7f7;
+    position: relative;
+    padding-left: 60px;
+    padding-top: 50px;
+    text-transform: capitalize;
+
+}
+.section_banner p.sub_heading::before{
+    position: absolute;
+    height: 40px;
+    width: 4px;
+    left: 30px;
+    top: 40px;
+    content: '';
+    background: linear-gradient( 180deg, #FFE11A 0%, #FE0000 112.5%);
+    transform: rotate( 0.35deg);
+    display: inline-block;
+}
+.section_banner h3{
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: #fcf7f7;
+}
+.section_banner p.info{
+    padding-left: 20px;
+    color: #fcf7f7;
+    width: 200px;
+    text-transform: capitalize;
+}
